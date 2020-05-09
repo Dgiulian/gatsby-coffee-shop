@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Latte Larry`,
+    title: `Latte Larry's`,
     description: `The coffee shop made entirely to piss off Mocka Joes`,
     author: `Larry David`,
   },
