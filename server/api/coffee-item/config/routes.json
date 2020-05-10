@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/coffee-items",
+      "handler": "coffee-item.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coffee-items/count",
+      "handler": "coffee-item.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coffee-items/:id",
+      "handler": "coffee-item.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/coffee-items",
+      "handler": "coffee-item.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/coffee-items/:id",
+      "handler": "coffee-item.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/coffee-items/:id",
+      "handler": "coffee-item.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
