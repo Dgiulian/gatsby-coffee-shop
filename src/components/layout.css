@@ -9,18 +9,44 @@
 body {
   background-color: var(--mainWhite);
   color: var(--mainDark);
-  font-family: Verdana, Geneva, Tahoma, sans-serif!important;
-
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Courier New', Courier, monospace !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace !important;
   letter-spacing: 0.25rem !important;
 }
 
 .cart-icon {
   cursor: pointer;
   color: var(--mainYellow);
-  font-size: 2rem;;
+  font-size: 2rem;
+}
+
+.default-background {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5)); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1 !important;
+}
+
+.btn-yellow {
+  color: var(--mainYellow);
+  border-color: var(--mainYellow);
+}
+.btn-yellow:hover {
+  background-color: var(--mainYellow);
+  color: var(--mainDark) !important;
+  border-color: var(--mainYellow);
 }
