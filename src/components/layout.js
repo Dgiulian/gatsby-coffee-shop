@@ -13,6 +13,7 @@ import Header from "./header"
 import './bootstrap.min.css';
 import "./layout.css"
 import Navbar from './shared/Navbar';
+import Footer from './Footer';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -29,6 +30,7 @@ const Layout = ({ children }) => {
     <>
         <Navbar />
         <main>{children}</main>
+        <Footer />
     </>
   )
 }

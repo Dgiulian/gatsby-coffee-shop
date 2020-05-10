@@ -50,3 +50,11 @@ h6 {
   color: var(--mainDark) !important;
   border-color: var(--mainYellow);
 }
+
+.footer {
+  background-color: var(--mainDark);
+  color: var(--mainWhite);
+}
+.footer h3 {
+  font-size: 1.1rem;
+}

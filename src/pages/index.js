@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import { graphql } from "gatsby"
 import BackgroundImage from "../components/shared/BackgroundImage"
 import Info from "../components/Home/Info"
+import Footer from '../components/Footer'
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = ({ data }) => (
       styleClass="default-background"
     />
     <Info />
+    <Footer />
   </Layout>
 )
 
