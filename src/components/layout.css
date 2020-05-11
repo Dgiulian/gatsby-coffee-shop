@@ -63,3 +63,8 @@ h6 {
 .footer h3 {
   font-size: 1.1rem;
 }
+
+
+.menu{
+  background-color: var(--mainGrey);
+}
