@@ -13,6 +13,7 @@ const productQuery = graphql`
         image {
           childImageSharp {
             fluid(maxHeight: 426) {
+              src
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
