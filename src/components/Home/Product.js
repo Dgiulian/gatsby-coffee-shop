@@ -1,7 +1,6 @@
 import React from "react"
 import Image from "gatsby-image"
 export default function Product({ price, title, image }) {
-  console.log(image)
   return (
     <div className="col-10 col-sm-8 col-md-6 col-lg-4 mx-auto my-3">
       <div className="card" style={{ minHeight: "100%" }}>

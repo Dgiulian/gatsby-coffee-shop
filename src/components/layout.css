@@ -42,9 +42,8 @@ h6 {
   opacity: 1 !important;
 }
 
-
 .about-background {
-  min-height: 60vh;  
+  min-height: 60vh;
 }
 .btn-yellow {
   color: var(--mainYellow);
@@ -64,7 +63,7 @@ h6 {
   font-size: 1.1rem;
 }
 
-
-.menu{
+.menu,
+.contact {
   background-color: var(--mainGrey);
 }
