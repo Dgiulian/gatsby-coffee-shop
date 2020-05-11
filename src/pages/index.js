@@ -6,6 +6,7 @@ import { graphql } from "gatsby"
 import BackgroundImage from "../components/shared/BackgroundImage"
 import Info from "../components/Home/Info"
 import Menu from "../components/Home/Menu"
+import Products from '../components/Home/ProductList'
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = ({ data }) => (
     />
     <Info />
     <Menu items={data.menuItems.nodes} />
+    <Products />
   </Layout>
 )
 
