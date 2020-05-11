@@ -14,7 +14,7 @@ export default function Product({ id, price, title, image }) {
             data-item-price={price}
             data-item-name={title}
             data-item-image={image.childImageSharp.fluid.src}
-            data-item-url={`${process.env.siteURL}`}
+            data-item-url={`${process.env.SITE_URL}`}
           >
             add to cart
           </button>
